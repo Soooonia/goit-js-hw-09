@@ -15,9 +15,9 @@ closeBtn.addEventListener('click', onStop);
 
 
 function onStart(e){
-    body.style.backgroundColor = getRandomHexColor;
+    body.style.backgroundColor = getRandomHexColor();
     startBtn.disabled = true;
-    closeBtn.disable = false
+    closeBtn.disabled = false
 
  
 intervalID = setInterval(()=>{
